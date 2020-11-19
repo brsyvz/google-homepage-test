@@ -40,8 +40,7 @@
   text-decoration: none;
   cursor: text;
   outline: none;
-  padding-left: 40px;
-  background: white url(img/search_icon) left no-repeat;
+  padding:15px;
   background-size: 14px 14px;
   background-position-x: 14px;
 }
