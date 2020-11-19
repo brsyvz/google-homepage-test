@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.Parent {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.nav-links {
+  border-radius: 5px;
+  background: rgba(128, 128, 128, 0.514);
+  padding: 16px;
+  align-self: flex-end;
+  font-size: 20px;
+  margin: 20px 20px 0px 0px;
+}
+.nav-links a {
+  margin: 20px;
+  padding-left: 15px;
+}
+.center-form {
+  display: flex;
+  align-self: center;
+  flex-basis: 300px;
+}
+
+#search-bar {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50px;
+  border-width: thin;
+  border-color: rgba(0, 0, 0, 0.205);
+  text-decoration: none;
+  cursor: text;
+  outline: none;
+  padding-left: 40px;
+  background: white url(/img/search_icon) left no-repeat;
+  background-size: 14px 14px;
+  background-position-x: 14px;
+}
+
+.center-form button {
+  padding: 10px;
+  margin-top: 10px;
+  color: rgba(77, 74, 74, 0.836);
+  background-color: white;
+  cursor: pointer;
+}
+
+.parent-footer-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 25px;
+
+  background: rgba(128, 128, 128, 0.514);
+}
+
+.child-left-links {
+  align-self: flex-start;
+}
+.child-right-links {
+  align-self: flex-end;
+}
+
+.child-left-links.child-right-links,
+a {
+  padding-left: 2vw;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.705);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
